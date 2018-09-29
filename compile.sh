@@ -1,0 +1,1 @@
+cd iota && cmake . && make && cd ../ && gcc main.c -I iota/src -L iota/ -l iota_wallet -o main
